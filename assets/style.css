@@ -21,6 +21,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url(/assets/images/beachshowcase.jpg);
 }
 
 h1 {
