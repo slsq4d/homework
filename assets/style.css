@@ -3,41 +3,65 @@
   margin: 0;
   padding: 0;
 }
+
 html {
-  --user-photo-width: ;
+  --user-photo-width: 100px;
 }
 
 body {
   font-family: sans-serif;
+  padding: 15px;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .userCard {
-}
-
-.content-wrapper {
+  border: 3px solid red;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+  flex-grow: 1;
+  min-width: 250px;
+  max-width: 350px;
 }
 
 .userImg {
+  width: var(--user-photo-width);
+  height: var(--user-photo-width);
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -10px;
 }
 
-.userName {
+.editBtn1 {
+  align-self: flex-end;
 }
 
-.location {
-}
 
-.job {
-}
+.editBtn2 {
+    align-self: flex-end;
+  }
 
 .experience {
+  text-align: center;
+}
+
+.memberSection {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  margin-top: auto;
 }
 
 .userSocialLinks {
-}
-
-.userSocialLinks + .userSocialLinks {
-}
-
-.socialLinksItem{
-
+    display: flex;
+    justify-content: center;
+  list-style-type: none;
+  gap: 10px
+;
 }
