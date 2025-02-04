@@ -36,6 +36,11 @@ body {
 }
 
 .userImg {
+  /* width: var(--user-photo-width);
+  height: var(--user-photo-width);
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -10px; */
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -45,14 +50,15 @@ body {
 
 h2 {
   font-size: 20px;
-  margin: auto;
+  margin: 10px 0;
   color: #333;
 }
-h2 {
+h3 {
   font-size: 20px;
-  margin: auto;
+  margin-top: auto;
   color: #333;
 }
+
 .editBtn1 {
   position: absolute;
   top: 10px;
@@ -90,7 +96,7 @@ h2 {
 }
 
 .cardFooter {
-  margin-top: 15px;
+  margin-top: auto;
 }
 
 .memberSection {
