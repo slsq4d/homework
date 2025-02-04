@@ -50,10 +50,14 @@ body {
 
 h2 {
   font-size: 20px;
-  margin: 10px 0;
+  margin: auto;
   color: #333;
 }
-
+h2 {
+  font-size: 20px;
+  margin: auto;
+  color: #333;
+}
 .editBtn1 {
   position: absolute;
   top: 10px;
