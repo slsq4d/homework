@@ -36,11 +36,6 @@ body {
 }
 
 .userImg {
-  /* width: var(--user-photo-width);
-  height: var(--user-photo-width);
-  border-radius: 50%;
-  object-fit: cover;
-  margin-top: -10px; */
   width: 100px;
   height: 100px;
   border-radius: 50%;
