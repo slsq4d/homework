@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background: linear-gradient(135deg, #a100ff, #ff0080);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -20,6 +20,7 @@ body {
 
 .userCard {
   background-color: white;
+  border-radius: 16px;
   margin: 10px;
   padding: 20px;
   display: flex;
@@ -36,7 +37,6 @@ body {
 }
 
 .userImg {
-
   width: var(--user-photo-width);
   height: var(--user-photo-width);
   border-radius: 50%;
